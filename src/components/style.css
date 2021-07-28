@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+.msg-danger{
+    text-align:center;
+    width:200px;
+    background: tomato;
+    color:#fff;
+    padding:5px 13px;
+    border-radius:8px;
+}
+.msg-sucess, .msg-warning{
+    text-align:center;
+    width:200px;
+    background: green;
+    color:#fff;
+    padding:5px 13px;
+    border-radius:8px;
+}
+.msg-warning{
+    background: yellow;
+    color:#000;
+}
+.to__do{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.to__do h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:35px;
+    margin:40px 0 10px 0;
+}
+
+.list-container{
+    display: flex;
+    border:3px solid #562BF7;
+    box-shadow: 3px 5px 8px rgba(86, 43, 247, 0.3);
+    width:400px;
+    margin:15px auto;
+    border-radius: 8px;
+    padding:8px 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-container:hover{
+    background:#562BF7;
+    color:#fff;
+}
+form input{
+    border:3px solid #8fd3f4;
+    border-radius: 5px;
+    padding:10px 30px;
+    font-size:20px;
+    font-weight:700;
+    letter-spacing: .3px;
+    outline:none;
+}
+form button{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing: 1px;
+    padding:15px 25px;
+    margin-left:10px;
+    border-radius:5px;
+    background:#562BF7;
+    
+    border:none;
+}
+.btn{
+    
+}
+.btn-edit{
+    border:none;
+    background:#F8F7FC;
+    border-radius:5px;
+    margin-right:5px;
+    padding:3px 10px;
+}
+.btn-edit:hover{
+    background:#8FD3F4;
+    color:#fff;
+}
+
+.btn-delete{
+    
+    padding:3px 10px;
+    border:none;
+    background:#F8F7FC;
+    border-radius:5px;
+    /* background:#562BF7; */
+}
+.btn-delete:hover{
+    background: tomato;
+    color:#fff;
+}
+
+.clear-all{
+    font-family: 'Lato', sans-serif;
+    width:170px;
+    font-weight:700;
+    letter-spacing: 1px;
+    margin:15px auto;
+    color:#fff;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    padding:10px 30px;
+    background:#1C1D2E;
+}
+.clear-all:hover{
+    background:tomato;
+}
+
+.btn-edit-icon{
+    font-size:25px;
+    
+}
+.btn-delete-icon{
+    font-size:25px;
+
+}
+.clear-all-icon{
+    font-size:25px;
+}
